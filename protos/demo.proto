@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package demo;
+
+message DemoRequest {
+	string DemoText = 1;
+	int32 DemoInteger = 2;
+}
